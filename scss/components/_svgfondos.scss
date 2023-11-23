@@ -1,0 +1,31 @@
+#doble-circulo{
+    width: 1500px;
+    position: absolute;
+    left: -750px;
+    bottom: -750px;
+    z-index: 1;
+}
+
+#tres-estrellas{
+    width: 500px;
+    position: absolute;
+    right: -100px;
+    bottom: 80px;
+}
+
+#planeta{
+    width: 600px;
+    position: absolute;
+    top: -290px;
+    right: -290px;
+    rotate: 20deg;
+}
+
+#ovalo{
+    width: 1500px;
+    position: absolute;
+    top: -350px;
+    left: 220px;
+    rotate: -40deg;
+    z-index: 1 !important;
+}

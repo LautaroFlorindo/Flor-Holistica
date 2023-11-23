@@ -1,0 +1,38 @@
+body{
+    font-family: Montserrat;
+    margin: 0;
+    overflow-x: hidden;
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    color: white;
+}
+.titulo-secundario{
+    font-size: 4rem;
+    font-weight: 450;
+    margin: 10px;
+    width: fit-content;
+}
+
+.texto-descripcion{
+    width: 100%;
+    margin: 30px 10px;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.boton-conseguir{
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 20px;
+    margin: 10px;
+    color: white;
+    background: rgb(219,188,100);
+    background: linear-gradient(90deg, rgba(219,188,100,1) 30%, rgba(239,222,136,1) 100%);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    a{
+        color: white;
+        text-decoration: none;
+    }
+}

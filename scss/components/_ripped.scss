@@ -1,0 +1,21 @@
+#ripped{
+    position: absolute;
+    bottom: -120px;
+    left: -20px;
+    color: nth($col, 1);
+    z-index: 8;
+}
+#ripped-top{
+    position: absolute;
+    bottom: -25px;
+    left: -20px;
+    color: nth($col, 1);
+    z-index: 8;
+}
+#ripped-cursos{
+    position: absolute;
+    bottom: -80px;
+    left: -20px;
+    color: nth($col, 1);
+    z-index: 8;
+}

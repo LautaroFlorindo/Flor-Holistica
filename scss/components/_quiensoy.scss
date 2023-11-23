@@ -1,0 +1,35 @@
+#quien-soy-section {
+    height: 95vh;
+    position: relative;
+    background: radial-gradient(ellipse at top right, nth($col, 5) 70%,nth($col, 5) 70%,nth($col, 5) 70%,nth($col, 5) 70%,nth($col, 5) 70%,nth($col, 5) 70%,nth($col, 5) 70%,nth($col, 1) 70%,nth($col, 1) 70%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#titulo-principal{
+    color: nth($col, 3);
+    font-size: 4rem;
+    font-weight: 450;
+    margin: 10px;
+}
+
+#quien-soy-container{
+    width: 50%;
+    z-index: 8;
+
+    p{
+        color: nth($col, 3);
+        width: 70%;
+        margin: 30px 10px;
+        font-size: 1.1rem;
+        font-weight: 300;
+    }
+}
+
+#quien-soy-img{
+    width: 35rem;
+}
+

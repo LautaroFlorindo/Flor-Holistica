@@ -1,0 +1,18 @@
+#cursos-section{
+    min-height: 90vh;
+    background-color: nth($col, 2);
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#cursos-container{
+    width: 40%;
+}
+
+#cursos-portada{
+    margin-top: 3rem;
+    width: 22rem;
+}

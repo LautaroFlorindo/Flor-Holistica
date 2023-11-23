@@ -1,0 +1,40 @@
+#header{
+    position: fixed;
+    z-index: 9;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: nth($col, 5);
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    width: 60%;
+    z-index: 9;
+}
+
+#logo-navbar{
+    width: 120px;
+    padding: 15px;
+}
+
+#opciones-navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    ul{
+        list-style: none;
+        padding: 0px 15px;
+        margin: 0;
+        li{
+            font-size: 1.3rem;
+            color: nth($col, 3);
+            font-weight: 300;
+        }
+    }
+}
