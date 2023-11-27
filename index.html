@@ -12,6 +12,8 @@
         rel="stylesheet">
     <!-- fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- animate css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- css -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -20,32 +22,32 @@
     <header id="header">
         <nav id="navbar">
             <div>
-                <a href="#">
+                <a href="https://www.florholistica.com">
                     <img id="logo-navbar" src="./img/logo-florholistica.svg" alt="">
                 </a>
             </div>
             <div id="opciones-navbar">
                 <ul>
-                    <li>¿Quién soy?</li>
+                    <li><a href="#quien-soy-section">¿Quién soy?</a></li>
                 </ul>
                 <ul>
-                    <li>Libro</li>
+                    <li><a href="#libro-section">Libro</a></li>
                 </ul>
                 <ul>
-                    <li>Oráculo</li>
+                    <li><a href="#oraculo-section">Oráculo</a></li>
                 </ul>
                 <ul>
-                    <li>Cursos</li>
+                    <li><a href="#cursos-section">Cursos</a></li>
                 </ul>
                 <ul>
-                    <li>Contacto</li>
+                    <li><a href="#footer">Contacto</a></li>
                 </ul>
             </div>
         </nav>
     </header>
     <main>
         <section id="quien-soy-section">
-            <div id="quien-soy-container">
+            <div id="quien-soy-container" class="animate-on-scroll left">
                 <h1 id="titulo-principal">¿Quién soy?</h1>
                 <p class="texto-descripcion">Mi nombre es Florencia, nacida en Argentina (Posadas, Misiones). Mi
                     proposito hace varios años es compartir consciencia, pero más alla de eso y yendo mas profundo, me
@@ -61,7 +63,7 @@
             <img src="./img/tres-estrellas.svg" alt="" id="tres-estrellas">
         </section>
         <section id="libro-section">
-            <div id="libro-container">
+            <div id="libro-container" class="animate-on-scroll">
                 <h2 class="titulo-secundario">Mi libro</h2>
                 <p class="texto-descripcion">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero delectus ea
                     unde alias veniam voluptatem obcaecati sunt nesciunt recusandae natus inventore ut debitis velit
@@ -71,7 +73,7 @@
                 <button class="boton-conseguir">
                     <a href="#">Me vibra</a>
                 </button>
-                
+
             </div>
             <div id="div-libro">
                 <img id="libro-portada" src="./img/portada-libro.png" alt="">
@@ -82,7 +84,7 @@
             <!-- <img src="./img/ovalo.svg" alt="" id="ovalo">X -->
         </section>
         <section id="oraculo-section">
-            <div id="oraculo-container">
+            <div id="oraculo-container" class="animate-on-scroll left">
                 <h2 class="titulo-secundario">Oráculo</h2>
                 <p class="texto-descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae commodi
                     pariatur doloribus beatae dicta, vel et facilis hic numquam dolorum eos temporibus veritatis id
@@ -94,12 +96,12 @@
                     <a href="#">¡Lo quiero!</a>
 
                 </button>
-                <img src="./img/oraculo-ripped.svg" alt="" id="ripped">
             </div>
+            <img src="./img/oraculo-ripped.svg" alt="" id="ripped">
             <img id="oraculo-portada" src="./img/portada-oraculo.png" alt="">
         </section>
         <section id="cursos-section">
-            <div id="cursos-container">
+            <div id="cursos-container" class="animate-on-scroll">
                 <h2 class="titulo-secundario">Cursos</h2>
                 <p class="texto-descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic iure sapiente
                     odit eos id nobis veritatis quibusdam unde, doloribus magnam, consequatur numquam doloremque ex
@@ -111,8 +113,9 @@
                     <a href="#">Ver más...</a>
 
                 </button>
-                <img src="./img/cursos-ripped.svg" alt="" id="ripped-cursos">
+                
             </div>
+            <img src="./img/cursos-ripped.svg" alt="" id="ripped-cursos">
             <div>
                 <img id="cursos-portada" src="./img/portada-libro.png" alt="">
             </div>
@@ -141,32 +144,33 @@ Hola Flor, me gustaría saber más sobre:
             <div>
                 <h4>Encontrame en:</h4>
             </div>
-                <ul id="lista-redes">
-                    <li>
-                        <a href="#">
-                            <i class="fa-brands fa-instagram"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fa-brands fa-spotify"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fa-brands fa-tiktok"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fa-brands fa-youtube"></i>
-                        </a>
-                    </li>
-                </ul>
+            <ul id="lista-redes">
+                <li>
+                    <a href="https://www.instagram.com/flor.holistica" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://open.spotify.com/show/38t8SnzBgAfpOmu0D6reLW?si=dd22f3a8097d46b4" target="_blank">
+                        <i class="fa-brands fa-spotify"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.tiktok.com/@flor.holistica" target="_blank">
+                        <i class="fa-brands fa-tiktok"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/@flor.holistica/featured" target="_blank">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </li>
+            </ul>
 
 
         </section>
     </footer>
 </body>
+<script src="./js/main.js"></script>
 
 </html>

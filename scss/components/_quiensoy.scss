@@ -1,7 +1,7 @@
 #quien-soy-section {
     height: 95vh;
     position: relative;
-    background: radial-gradient(ellipse at top right, nth($col, 5) 70%,nth($col, 5) 70%,nth($col, 5) 70%,nth($col, 5) 70%,nth($col, 5) 70%,nth($col, 5) 70%,nth($col, 5) 70%,nth($col, 1) 70%,nth($col, 1) 70%);
+    background: radial-gradient(ellipse at top right, nth($col, 5) 71%,nth($col, 5) 71%,nth($col, 5) 71%,nth($col, 5) 71%,nth($col, 5) 71%,nth($col, 5) 71%,nth($col, 5) 71%,nth($col, 1) 71%,nth($col, 1) 71%);
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -22,7 +22,7 @@
 
     p{
         color: nth($col, 3);
-        width: 70%;
+        width: 71%;
         margin: 30px 10px;
         font-size: 1.1rem;
         font-weight: 300;

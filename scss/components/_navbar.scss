@@ -9,11 +9,11 @@
 #navbar{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: nth($col, 5);
     border-bottom-right-radius: 12px;
     border-bottom-left-radius: 12px;
-    width: 60%;
+    width: 100%;
     z-index: 9;
 }
 
@@ -33,8 +33,11 @@
         margin: 0;
         li{
             font-size: 1.3rem;
-            color: nth($col, 3);
             font-weight: 300;
+            a{
+                text-decoration: none;
+                color: nth($col, 3);
+            }
         }
     }
 }
