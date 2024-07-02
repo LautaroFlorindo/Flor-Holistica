@@ -1,3 +1,4 @@
+
 #footer {
     min-height: 30vh;
     background-color: nth($col, 1);
@@ -11,6 +12,9 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    @media (max-width: 992px){
+        flex-direction: column;
+    }
 }
 
 
@@ -20,7 +24,7 @@
     justify-content: center;
     align-items: center;
     background-color: nth($col, 5);
-    min-height: 400px;
+    min-height: 80vh;
     width: 100%;
 
     h2,
@@ -37,6 +41,14 @@
     p {
         font-size: 1.5rem;
     }
+    @media (max-width: 992px){
+        min-height: 200px;
+        background-color: nth($col, 1);
+        
+    }
+    @media (max-width: 600px){
+        padding-top: 1rem;
+    }
 }
 
 
@@ -51,23 +63,38 @@
     input,
     textarea {
         width: 60%;
-        border: none;
+        border: 1px solid nth($col, 3);
         border-bottom: 2px solid nth($col, 3);
         background-color: transparent;
-
+        margin-top: 10px;
+        padding: 1rem;
         &:focus {
             outline: 2px solid nth($col, 3);
             border: none;
         }
+        @media (max-width: 768px){
+            width: 80%;
+        }
     }
 
     textarea {
-        height: 70px;
+        height: 150px;
         resize: none;
+        @media (max-width: 992px){
+            min-height: 120px;
+        }
+        
     }
 
     button {
-        width: 60%
+        width: 60%;
+        @media (max-width: 992px){
+        width: 40%;
+        margin-bottom: 2rem 0;
+        }
+    }
+    @media(max-width: 992px){
+        padding-bottom: 2rem;
     }
 }
 
@@ -80,6 +107,7 @@
     width: 100%;
     @media(max-width: 576px){
         flex-direction: column;
+        min-height: 100px;
     }
 
         h4 {
@@ -87,6 +115,9 @@
             font-size: 1.5rem;
             font-weight: 300;
             margin: 10px;
+            @media (max-width: 600px){
+                font-size: 1.3rem;
+            }
         }
 
 }
@@ -106,6 +137,9 @@
             i{
                 font-size: 30px;
                 color: white;
+                @media (max-width: 992px){
+                    font-size: 1.5rem;
+                }
             }
         }
     }

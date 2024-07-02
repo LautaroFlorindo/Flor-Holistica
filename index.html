@@ -20,15 +20,13 @@
 
 <body>
     <header id="header">
-        <nav id="navbar">
-            <div>
-                <a href="https://www.florholistica.com">
-                    <img id="logo-navbar" src="./img/logo-florholistica.svg" alt="">
-                </a>
-            </div>
-            <div id="opciones-navbar">
+        <nav class="main-nav" id="navbar">
+            <a href="#">
+                <img id="logo-navbar" src="./img/logo-florholistica.svg" alt="">
+            </a>
+            <div class="opciones-navbar">
                 <ul>
-                    <li><a href="#quien-soy-section">¿Quién soy?</a></li>
+                    <li><a class="active-link" href="#quien-soy-section">¿Quién soy?</a></li>
                 </ul>
                 <ul>
                     <li><a href="#libro-section">Libro</a></li>
@@ -40,9 +38,10 @@
                     <li><a href="#cursos-section">Cursos</a></li>
                 </ul>
                 <ul>
-                    <li><a href="#footer">Contacto</a></li>
+                    <li><a href="#footer-section">Contacto</a></li>
                 </ul>
             </div>
+            <i id="toggle-navbar" class="fa-solid fa-bars"></i>
         </nav>
     </header>
     <main>
@@ -113,63 +112,63 @@
                     <a href="#">Ver más...</a>
 
                 </button>
-                
+
             </div>
-            <img src="./img/cursos-ripped.svg" alt="" id="ripped-cursos">
             <div>
                 <img id="cursos-portada" src="./img/portada-libro.png" alt="">
             </div>
         </section>
+        <section id="footer-section">
+            <footer id="footer">
+                <div id="footer-hablemos-formulario">
+                    <div class="footer-hablemos">
+                        <h2 class="titulo-secundario">
+                            ¡Hablemos!
+                        </h2>
+                        <p class="texto-descripcion">
+                            Enterate de últimas novedades y cursos o escribí tu consulta.
+                        </p>
+                    </div>
+                    <div class="footer-formulario">
+                        <input type="text" placeholder="Tu nombre.. (requerido)" required>
+                        <input type="text" placeholder="Tu correo.. (requerido)" required>
+                        <textarea>Hola Flor, me gustaría saber más sobre: </textarea>
+                        <button class="boton-conseguir">Enviar</button>
+                    </div>
+                </div>
+                <div id="footer-redes">
+                    <div>
+                        <h4>Encontrame en:</h4>
+                    </div>
+                    <ul id="lista-redes">
+                        <li>
+                            <a href="https://www.instagram.com/flor.holistica" target="_blank">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://open.spotify.com/show/38t8SnzBgAfpOmu0D6reLW?si=dd22f3a8097d46b4"
+                                target="_blank">
+                                <i class="fa-brands fa-spotify"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.tiktok.com/@flor.holistica" target="_blank">
+                                <i class="fa-brands fa-tiktok"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/@flor.holistica/featured" target="_blank">
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+
+                </div>
+            </footer>
+        </section>
     </main>
-    <footer id="footer">
-        <section id="footer-hablemos-formulario">
-            <div class="footer-hablemos">
-                <h2>
-                    ¡Hablemos!
-                </h2>
-                <p>
-                    Enterate de últimas novedades y cursos o escribí tu consulta.
-                </p>
-            </div>
-            <div class="footer-formulario">
-                <input type="text" placeholder="Tu nombre.. (requerido)" required>
-                <input type="text" placeholder="Tu correo.. (requerido)" required>
-                <textarea>
-Hola Flor, me gustaría saber más sobre: 
-                </textarea>
-                <button class="boton-conseguir">Enviar</button>
-            </div>
-        </section>
-        <section id="footer-redes">
-            <div>
-                <h4>Encontrame en:</h4>
-            </div>
-            <ul id="lista-redes">
-                <li>
-                    <a href="https://www.instagram.com/flor.holistica" target="_blank">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://open.spotify.com/show/38t8SnzBgAfpOmu0D6reLW?si=dd22f3a8097d46b4" target="_blank">
-                        <i class="fa-brands fa-spotify"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.tiktok.com/@flor.holistica" target="_blank">
-                        <i class="fa-brands fa-tiktok"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.youtube.com/@flor.holistica/featured" target="_blank">
-                        <i class="fa-brands fa-youtube"></i>
-                    </a>
-                </li>
-            </ul>
-
-
-        </section>
-    </footer>
 </body>
 <script src="./js/main.js"></script>
 

@@ -12,6 +12,11 @@ h1, h2, h3, h4, h5, h6, p{
     font-weight: 450;
     margin: 10px;
     width: fit-content;
+    @media (max-width: 992px){
+        text-align: center;
+        width: 100%;
+        font-size: 2.5rem;
+    }
 }
 
 .texto-descripcion{
@@ -19,6 +24,10 @@ h1, h2, h3, h4, h5, h6, p{
     margin: 30px 10px;
     font-size: 1.2rem;
     font-weight: 300;
+    @media (max-width: 992px){
+        text-align: center;
+        margin-top: .5rem;
+    }
 }
 
 .boton-conseguir{
@@ -31,6 +40,13 @@ h1, h2, h3, h4, h5, h6, p{
     background: rgb(219,188,100);
     background: linear-gradient(90deg, rgba(219,188,100,1) 30%, rgba(239,222,136,1) 100%);
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    @media (max-width: 992px){
+        width: 40%;
+    }
+    @media (max-width: 768px){
+        width: 50%;
+    }
     a{
         color: white;
         text-decoration: none;

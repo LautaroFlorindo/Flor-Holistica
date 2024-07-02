@@ -1,3 +1,11 @@
 .animate-on-scroll{
     opacity: 0;
 }
+
+main{
+    overflow-x: hidden;   
+}
+
+*{
+    scroll-behavior: smooth;
+}
