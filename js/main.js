@@ -88,7 +88,7 @@ window.onscroll = () => {
     });
 
 
-    menuIcon.classList.remove("fa-arrow-down");
+    menuIcon.classList.remove("fa-x");
     navbarOpciones.classList.remove("active-navbar");
     navbar.classList.remove("active-navbar-border");
 }
